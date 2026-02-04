@@ -65,7 +65,7 @@ This implementation is **in-memory** and framework-agnostic
     - Seasonal pricing rules.
     - Loyalty discounts & taxes.
 
-You can draw a simple class diagram:
+simple class diagram:
 
 `BookingService → (HotelRepository, RoomRepository, BookingRepository, PricingService, PaymentService)`  
 `Hotel` aggregates `Room`s; `Booking` refers to `Room` and `Guest`
